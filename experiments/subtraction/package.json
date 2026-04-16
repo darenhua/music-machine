@@ -1,0 +1,18 @@
+{
+  "name": "subtraction",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "subtraction": "./index.ts"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
