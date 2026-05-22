@@ -2,6 +2,10 @@
 
 This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
 
+## Main project source
+
+The main project source lives in [`experiments/small`](./experiments/small) — a collection of marimo notebooks that make up the primary work in this repo.
+
 ## Adding components
 
 To add components to your app, run the following command:

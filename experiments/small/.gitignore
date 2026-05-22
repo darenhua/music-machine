@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# Marimo
+__marimo__/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Data / generated artifacts
+downloads/
+jobs.json
+jobs.json.tmp
+jobs.json.lock
+metadata.json
+metadata.json.lock

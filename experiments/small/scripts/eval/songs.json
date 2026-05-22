@@ -1,0 +1,161 @@
+[
+  {
+    "title": "Billie Jean",
+    "artist": "Michael Jackson",
+    "youtube_query": "Michael Jackson Billie Jean official audio",
+    "video_id": "Kr4EQDVETuA",
+    "expected_key": "F# minor",
+    "expected_bpm": 117,
+    "expected_camelot": "11A",
+    "genre": "pop",
+    "sources": [
+      "https://songbpm.com/@michael-jackson/billie-jean",
+      "https://www.hooktheory.com/theorytab/view/michael-jackson/billie-jean",
+      "https://getsongkey.com/song/billie-jean/voKlYL"
+    ],
+    "notes": "Hooktheory and GetSongKEY confirm F# minor (Dorian feel in verses). Automated tools often report B minor or D major — all related keys. BPM 117 consistent across sources."
+  },
+  {
+    "title": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "youtube_query": "Nirvana Smells Like Teen Spirit official music video",
+    "video_id": "hTWKbfoikeg",
+    "expected_key": "F minor",
+    "expected_bpm": 117,
+    "expected_camelot": "4A",
+    "genre": "rock",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/nirvana/smells-like-teen-spirit",
+      "https://www.audiokeychain.com/track/Fbp/nirvana-smells-like-teen-spirit",
+      "https://songbpm.com/@nirvana/smells-like-teen-spirit"
+    ],
+    "notes": "FLAG: Hooktheory + theory analysis say F minor (4A). Automated tools (Tunebat, SongBPM) say Db major (3B) — the relative major. Power-chord minor-key rock often triggers relative-major false positives."
+  },
+  {
+    "title": "Wonderwall",
+    "artist": "Oasis",
+    "youtube_query": "Oasis Wonderwall official music video",
+    "video_id": "bx1Bh8ZvH84",
+    "expected_key": "F# minor",
+    "expected_bpm": 87,
+    "expected_camelot": "11A",
+    "genre": "rock",
+    "sources": [
+      "https://songbpm.com/@oasis/wonderwall",
+      "https://www.audiokeychain.com/track/FQT/oasis-wonderwall",
+      "https://www.musicnotes.com/sheetmusic/mtd.asp?ppn=MN0053372"
+    ],
+    "notes": "Clean ground truth — F# minor, 87 BPM, 11A confirmed across SongBPM, GetSongBPM, AudioKeychain, and published sheet music."
+  },
+  {
+    "title": "Hotel California",
+    "artist": "Eagles",
+    "youtube_query": "Eagles Hotel California official audio",
+    "video_id": "dLl4PZtxia8",
+    "expected_key": "B minor",
+    "expected_bpm": 74,
+    "expected_camelot": "10A",
+    "genre": "rock",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/eagles/hotel-california",
+      "https://songbpm.com/@eagles/hotel-california-823a5ec3-5e7c-4e2b-8755-2201c7a52df3"
+    ],
+    "notes": "FLAG: tonal center is B minor (Hooktheory). Automated tools report D major (relative major) and 147 BPM (double-time). True pulse is ~74 BPM. Expect detector to register 147 — that will show as a BPM 'octave' match, not tight."
+  },
+  {
+    "title": "Blinding Lights",
+    "artist": "The Weeknd",
+    "youtube_query": "The Weeknd Blinding Lights official video",
+    "video_id": "4NRXx6U8ABQ",
+    "expected_key": "C# minor",
+    "expected_bpm": 171,
+    "expected_camelot": "12A",
+    "genre": "synth-pop",
+    "sources": [
+      "https://acapellas.eu/the-weeknd-blinding-lights-bpm-key",
+      "https://songbpm.com/@the-weeknd/blinding-lights",
+      "https://musicstax.com/track/blinding-lights/00uqj8HXl0hWr3tnxC0NZ5"
+    ],
+    "notes": "FLAG: 171 BPM is uncontested. Key reported as C# major (3B) by most automated tools but functions in C# minor harmonically. The analyzer is likely to return C# major."
+  },
+  {
+    "title": "Levitating",
+    "artist": "Dua Lipa",
+    "youtube_query": "Dua Lipa Levitating official music video",
+    "video_id": "TUVcZfQe-Kw",
+    "expected_key": "F# minor",
+    "expected_bpm": 103,
+    "expected_camelot": "11A",
+    "genre": "disco-pop",
+    "sources": [
+      "https://songbpm.com/@dua-lipa/levitating",
+      "https://musicstax.com/track/levitating/39LLxExYz6ewLAcYrzQQyP",
+      "https://tunebat.com/Info/Levitating-Dua-Lipa/39LLxExYz6ewLAcYrzQQyP"
+    ],
+    "notes": "Strong cross-source agreement: F# minor, 103 BPM, 11A. One of the cleanest EDM-adjacent entries."
+  },
+  {
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "youtube_query": "Journey Don't Stop Believin' official audio",
+    "video_id": "1k8craCGpgs",
+    "expected_key": "E major",
+    "expected_bpm": 119,
+    "expected_camelot": "12B",
+    "genre": "rock",
+    "sources": [
+      "https://songbpm.com/@journey/don-t-stop-believin-8beedfcb-30fe-4f10-8812-eb8b240d7d66",
+      "https://songdata.io/track/77NNZQSqzLNqh2A9JhLRkg/Dont-Stop-Believin-by-Journey",
+      "https://tunebat.com/Info/Don-t-Stop-Believin-Journey/77NNZQSqzLNqh2A9JhLRkg"
+    ],
+    "notes": "Strong agreement: E major, 12B. BPM 118-119 across sources."
+  },
+  {
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "youtube_query": "Guns N' Roses Sweet Child O' Mine official music video",
+    "video_id": "1w7OgIMMRc4",
+    "expected_key": "Db major",
+    "expected_bpm": 125,
+    "expected_camelot": "3B",
+    "genre": "rock",
+    "sources": [
+      "https://www.audiokeychain.com/track/lq/guns-n-roses-sweet-child-o-mine",
+      "https://songbpm.com/@guns-n-roses/sweet-child-o-mine",
+      "https://musicstax.com/track/sweet-child-o-mine/7snQQk1zcKl8gZ92AnueZW"
+    ],
+    "notes": "FLAG: guitars tuned Eb standard so sounding pitch is Db major (3B). Some sources report F#/Gb major (tab-position naming). AudioKeychain confirms 3B. 125 BPM consistent."
+  },
+  {
+    "title": "Lose Yourself",
+    "artist": "Eminem",
+    "youtube_query": "Eminem Lose Yourself official music video",
+    "video_id": "7YuAzR2XVAM",
+    "expected_key": "D minor",
+    "expected_bpm": 86,
+    "expected_camelot": "7A",
+    "genre": "hip-hop",
+    "sources": [
+      "https://www.hooktheory.com/theorytab/view/eminem/lose-yourself",
+      "https://songbpm.com/@eminem/lose-yourself---soundtrack-version",
+      "https://songdata.io/track/1MWlCmgxuLIe4izcR62xBE/Lose-Yourself-by-Eminem"
+    ],
+    "notes": "FLAG: Hooktheory + sheet music say D minor (7A). Automated tools say D major (10B) and 171 BPM (double-time). True pulse is 86 BPM."
+  },
+  {
+    "title": "Titanium",
+    "artist": "David Guetta feat. Sia",
+    "youtube_query": "David Guetta Sia Titanium official video",
+    "video_id": "JRfuAukYTKg",
+    "expected_key": "C minor",
+    "expected_bpm": 126,
+    "expected_camelot": "5A",
+    "genre": "EDM",
+    "sources": [
+      "https://songbpm.com/@david-guetta/titanium-feat-sia",
+      "https://www.audiokeychain.com/track/XD/david-guetta-titanium-feat-sia",
+      "https://tunebat.com/Info/Titanium-feat-Sia-David-Guetta-Sia/0TDLuuLlV54CkRRUOahJb4"
+    ],
+    "notes": "Replaced Bohemian Rhapsody (modulates through 4+ keys). Titanium stays in C minor throughout. Four independent sources agree: C minor, 126 BPM, 5A."
+  }
+]
